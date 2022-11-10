@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.main1 {
+    background: linear-gradient(120deg, pink, #2980b9);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.play{
+    margin-left: 30px;
+}
+.main::before {
+    position: absolute;
+    content: '';
+    width: 100vw;
+    height: 100vh;
+    background-image: url("http://gdurl.com/OJzd");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.3;
+    z-index: 0;
+}
+table {
+    background: wheat;
+    border-spacing: 0px;
+    border: 2px solid black;
+    z-index: 1;
+    margin-left: -50px;
+}
+.cell {
+    border: 1px solid black;
+    width: 24px;
+    height: 24px;
+}
+td.whiteStone {
+    background-image: url("../image/oicon.png");
+    background-size: 100% 100%;
+}
+td.blackStone {
+    background-image: url("../image/xicon.png");
+    background-size: 100% 100%;
+}
+.active {
+    position: relative;
+}
+.active::before {
+    position: absolute;
+    content: '';
+    height: 24px;
+    width: 24px;
+    top: 0;
+    left: 0;
+    background-color: orangered;
+    opacity: 0.3;
+}
+.score{
+    display: flex;
+    margin-left: 75px;
+    margin-top: 25px;
+}
+.plr1{
+    background: #00b1fe;
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.plr2{
+    background: #d8d8d8;
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.point1{
+    background: #00b1fe;
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.point2{
+    background: #00b1fe;
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.option{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 125px;
+}
+.new{
+    background: #db0030;
+    padding: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.stop{
+    background: #0089c8;
+    padding: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.surr{
+    background: #c1b501;
+    padding: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.exit{
+    background: #573789;
+    padding: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.time{
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 25px;
+    color: white;
+}

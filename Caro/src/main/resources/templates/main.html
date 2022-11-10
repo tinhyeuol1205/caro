@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" th:href="@{/image/logoCaro.png}" type="image/x-icon">
+    <title>Caro</title>
+    <link rel="stylesheet" th:href="@{../style/main.css}">
+    <link rel="stylesheet" href="../static/style/main.css">
+</head>
+<body>
+<div class="main2">
+    <div class="menu">
+        <div class="logo">
+            <img style="width: 250px; height: 60px" th:src="@{../image/logoCaro.png}"/>
+            <!--            <img style="width: 250px; height: 60px" src="../static/image/logoCaro.png"/>-->
+        </div>
+        <div class="chon">
+            <div class="hi">hi, <a style="color: black" href="profile">Nyal</a> !!!</div>
+            <div class="logout">
+                <a style="color: black" href="logout">Logout</a>
+            </div>
+        </div>
+    </div>
+    <div class="info">
+        <div class="">
+            <div class="rank">
+                <div class="tmp">
+                    <h1 style="font-size: 24px">Bảng Xếp Hạng</h1>
+                </div>
+                <table cellpadding="5" border="1">
+                    <tr style="background: #573789; font-weight: bold; color: white">
+                        <th>Rank</th>
+                        <th>Name</th>
+                        <th>Point</th>
+                        <th>Win rate</th>
+                        <th>Time</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th>Binh</th>
+                        <th>50</th>
+                        <th>75%</th>
+                        <th>01:30</th>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <th>Ba</th>
+                        <th>48</th>
+                        <th>69%</th>
+                        <th>01:15</th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>Hiep</th>
+                        <th>36</th>
+                        <th>66%</th>
+                        <th>00:45</th>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <th>Binh</th>
+                        <th>50</th>
+                        <th>75%</th>
+                        <th>01:30</th>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <th>Ba</th>
+                        <th>48</th>
+                        <th>69%</th>
+                        <th>01:15</th>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <th>Hiep</th>
+                        <th>36</th>
+                        <th>66%</th>
+                        <th>00:45</th>
+                    </tr>
+                    <tr>
+                        <th>7</th>
+                        <th>Binh</th>
+                        <th>50</th>
+                        <th>75%</th>
+                        <th>01:30</th>
+                    </tr>
+                    <tr>
+                        <th>8</th>
+                        <th>Ba</th>
+                        <th>48</th>
+                        <th>69%</th>
+                        <th>01:15</th>
+                    </tr>
+                    <tr>
+                        <th>9</th>
+                        <th>Hiep</th>
+                        <th>36</th>
+                        <th>66%</th>
+                        <th>00:45</th>
+                    </tr>
+                    <tr>
+                        <th>10</th>
+                        <th>Binh</th>
+                        <th>50</th>
+                        <th>75%</th>
+                        <th>01:30</th>
+                    </tr>
+                </table>
+            </div>
+            <div class="rules">
+                <h1 style="margin-top: -550px; filter: drop-shadow(0 0 5px blue);">Rules:</h1>
+                <p>- Một ván đấu được bắt đầu khi có đủ 2 người trên bàn.</p>
+                <p>- Bắt đầu 1 ván đấu: người chơi phải góp một lượng tiền</p>
+                <p>bằng mức tiền cược bàn ban đầu vào số tiền cược chung.</p>
+                <p>- Người được quyền đi trước: đánh vào vị trí bất kỳ trên bàn cờ.</p>
+                <p>- Khi tới lượt: người chơi phải tick vào một ô trên bàn cờ.</p>
+                <p>- Tick đủ 5 ô theo chiều dọc, chiều ngang hoặc đường chéo</p>
+                <p>mà không bị chặn 2 đầu thì sẽ thắng.</p>
+                <p>- Mỗi người chơi có 20s để đi. Sau 20s người chơi không</p>
+                <p>tick vào ô sẽ bị xử thua cuộc.</p>
+                <button><a style="text-decoration: none; color: white;
+                                    font-size: 36px; font-weight: bold" href="play">Play</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
